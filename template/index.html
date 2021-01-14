@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myShop</title>
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <div class="brand">
+                     <!-- Sandwich menu starts here -->
+                     <button onclick="openMenu()">
+                         <!-- here goes the magic -->
+                         &#9776;
+                     </button>
+                <a href="index.html">myShopping-Gh</a>
+            </div>
+            <div class="header-links">
+                <a href="cart.html">Cart</a>
+                <a href="signin.html">Sign-in</a>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <h3>Shopping Categories</h3>
+            <ul>
+                <li><a href="#">Shirts</a></li>
+                <li><a href="#">Chinos</a></li>
+                <li><a href="#">Jeans</a></li>
+                <li><a href="#">Under Garments</a></li>
+                <!-- <li>Shirts</li> -->
+            </ul>
+        </aside>
+        <main class="main">
+            <div class="content">
+            <ul class="products">
+                <!-- Item 1 -->
+                <li>
+                    <div class="product">
+                        <img class="product-image" src="./images/l1.jpg" alt="White shirt">
+                        <div class="product-name">
+                            <a href="product.html" alt="Product name">Slim white shirt</a>
+                        </div>
+                        <div class="product-brand">Rauch</div>
+                        <div class="product-price">GH₵60</div>
+                        <div class="product-rating">4.5 Stars - 10 Reviews</div>
+                    </div>
+                </li>
+
+                <!-- Item 2 -->
+                <li>
+                    <div class="product">
+                        <img class="product-image" src="./images/l1.jpg" alt="White shirt">
+                        <div class="product-name">
+                            <a href="product.html" alt="Product name">Slim white shirt</a>
+                        </div>
+                        <div class="product-brand">Rauch</div>
+                        <div class="product-price">GH₵60</div>
+                        <div class="product-rating">4.5 Stars (10 Reviews)</div>
+                    </div>
+                </li>
+
+                <!-- Item 3 -->
+                 <li>
+                    <div class="product">
+                        <img class="product-image" src="./images/l1.jpg" alt="White shirt">
+                        <div class="product-name">
+                            <a href="product.html" alt="Product name">Slim white shirt</a>
+                        </div>
+                        <div class="product-brand">Rauch</div>
+                        <div class="product-price">GH₵60</div>
+                        <div class="product-rating">4.5 Stars (10 Reviews)</div>
+                    </div>
+                </li>
+
+                <!-- Item 4 -->
+                <li>
+                    <div class="product">
+                        <img class="product-image" src="./images/l1.jpg" alt="White shirt">
+                        <div class="product-name">
+                            <a href="product.html" alt="Product name">Slim white shirt</a>
+                        </div>
+                        <div class="product-brand">Rauch</div>
+                        <div class="product-price">GH₵60</div>
+                        <div class="product-rating">4.5 Stars - 10 Reviews</div>
+                    </div>
+                </li>
+
+                <!-- item 5 -->
+                <li>
+                    <div class="product">
+                        <img class="product-image" src="./images/l1.jpg" alt="White shirt">
+                        <div class="product-name">
+                            <a href="product.html" alt="Product name">Slim white shirt</a>
+                        </div>
+                        <div class="product-brand">Rauch</div>
+                        <div class="product-price">GH₵60</div>
+                        <div class="product-rating">4.5 Stars - 10 Reviews</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        </main>
+        <footer class="footer">
+            All rights reserved. <a class="inc" href="#">Rauch Inc.</a> 2021
+        </footer>
+    </div>
+
+    <!-- scripts -->
+    <script>
+        function openMenu(){
+            document.querySelector(".sidebar").classList.add("open");
+        }
+    </script>
+</body>
+</html>
