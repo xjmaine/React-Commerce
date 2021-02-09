@@ -1,0 +1,48 @@
+https://www.youtube.com/watch?v=Fy9SdZLBTOo&ab_channel=CodingwithBasir
+
+new link:
+https://www.youtube.com/watch?v=TRCDsB9i3bI
+
+
+
+
+
+
+
+
+
+-------------------------------------------------
+.sidebar{
+    position: fixed;
+    transform: translateX(-30rem);
+    width: 30rem;
+    background-color: #f0f0f0;
+    height: 100%;
+  }
+  
+
+.sidebar.open{
+    transform: translateX(0);
+}
+
+.sidebar-close-button{
+    border-radius: 50%;
+    border: .1rem #000000 solid;
+    width: 3rem;
+    height: 3rem;
+    padding: .5rem;
+    font-size: 2rem;
+    padding-top: 0;
+    cursor: pointer;
+    position: absolute;
+    right: .5rem;
+    top: 1.5rem
+  }
+
+  -----
+
+  react cmd commands 
+  1. npx create-react-app frontend
+  where frontend is the name of the application
+
+  npm start //serve project

@@ -24,6 +24,7 @@
         </header>
         <aside class="sidebar">
             <h3>Shopping Categories</h3>
+            <button class="sidebar-close-button" onclick="closeMenu()">x</button>
             <ul>
                 <li><a href="#">Shirts</a></li>
                 <li><a href="#">Chinos</a></li>
@@ -111,6 +112,10 @@
     <script>
         function openMenu(){
             document.querySelector(".sidebar").classList.add("open");
+        }
+
+        function closeMenu(){
+            document.querySelector(".sidebar").classList.remove("open");
         }
     </script>
 </body>
